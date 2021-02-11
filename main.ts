@@ -1,5 +1,6 @@
 game.splash("Loading................... Press button A to continue")
 game.showLongText("Hello there ASM Power Electronics, may you have auspicious New Year!", DialogLayout.Bottom)
+game.showLongText("                               Gong Xi Fa Cai!                    ", DialogLayout.Bottom)
 forever(function () {
     music.playTone(294, music.beat(BeatFraction.Whole))
     music.rest(music.beat(BeatFraction.Sixteenth))
